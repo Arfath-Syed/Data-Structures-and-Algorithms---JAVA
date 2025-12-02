@@ -2,8 +2,8 @@ package BinarySearch;
 
 public class RotatedSortedArrayWithDuplicates {
     public static void main(String[] args) {
-        int[] arr = {2,9,2,2,2};
-        int target = 9;
+        int[] arr = {2,5,6,0,0,1,2};
+        int target = 0;
         System.out.println(rotatedSearchWithDuplicates(arr, target));
         System.out.println(search(arr, target));
     }
